@@ -7,15 +7,23 @@
 </head>
 <body>
     <script>
+        //Initialize new array
         var names = ['John', 'Mark', 'Jane'];
         var years = new Array (1990, 1969, 1948);
 
         console.log(names[2]);
         console.log(names.length);
 
+
+        //Mutated array data
         names[1] = 'Ben';
-        names[5] = 'Mary';
+        names[names.length] = 'Mary';
         console.log(names);
+
+        //different data types
+        var john = ['John', 'Smith', 1990, 'teacher', false];
+        john.push('blue');
+        console.log(john);
     </script>
 </body>
 </html>
