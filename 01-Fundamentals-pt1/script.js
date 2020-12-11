@@ -1,4 +1,4 @@
 let js = "amazing";
 
-let firstName = "Jonas";
+let firstName = "Bob";
 console.log(firstName);
