@@ -9,9 +9,17 @@
     <script>
       const age = 18;
 
-      if (age === 18) console.log("You just became an adult");
+      if (age === 18) console.log("You just became an adult(strict)");
 
-      if (age == 18) console.log("You just became an adult!");
+      if (age == 18) console.log("You just became an adult (loose)");
+
+      const favorite = prompt("What's your favorite number?");
+      console.log(favorite);
+      console.log(typeof favorite);
+
+      if (favorite == 48) {
+        console.log("Cool! 48 is an awesome number!");
+      }
     </script>
   </body>
 </html>
