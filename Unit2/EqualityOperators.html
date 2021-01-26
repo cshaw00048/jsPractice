@@ -13,11 +13,12 @@
 
       if (age == 18) console.log("You just became an adult (loose)");
 
-      const favorite = prompt("What's your favorite number?");
+      const favorite = Number(prompt("What's your favorite number?"));
       console.log(favorite);
       console.log(typeof favorite);
 
-      if (favorite == 48) {
+      if (favorite === 48) {
+        ///'48' == 23
         console.log("Cool! 48 is an awesome number!");
       }
     </script>
