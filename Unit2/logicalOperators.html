@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logical Operators</title>
+  </head>
+  <body>
+    <script>
+      const hasDriversLicense = true;
+      const hasGoodVision = false;
+
+      console.log(hasDriversLicense && hasGoodVision);
+      console.log(hasDriversLicense || hasGoodVision);
+      console.log(!hasDriversLicense);
+
+      const shouldDrive = hasDriversLicense && hasGoodVision;
+
+      if (shouldDrive) {
+        console.log("Sarah is ble to drive!");
+      } else {
+        console.log("Someone else should drive...");
+      }
+    </script>
+  </body>
+</html>
