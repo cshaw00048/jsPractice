@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Challenge 3</title>
+  </head>
+  <body>
+    <script>
+      //   const dolphAvg = (96 + 108 + 89) / 3;
+      //   const koalasAvg = (88 + 101 + 110) / 3;
+      //   console.log(dolphAvg, koalasAvg);
+
+      //   if (dolphAvg > koalasAvg) {
+      //     console.log("The Dolphins won!");
+      //   } else if (koalasAvg > dolphAvg) {
+      //     console.log("The Koala's won!");
+      //   } else if (dolphAvg === koalasAvg) {
+      //     console.log("The Dolphins and Koalas tied!");
+      //   }
+
+      const dolphAvg = (97 + 112 + 82) / 3;
+      const koalasAvg = (109 + 95 + 112) / 3;
+      console.log(dolphAvg, koalasAvg);
+
+      if (dolphAvg > koalasAvg && dolphAvg >= 100) {
+        console.log("The Dolphins won!");
+      } else if (koalasAvg > dolphAvg && koalasAvg >= 100) {
+        console.log("The Koala's won!");
+      } else if ((dolphAvg === koalasAvg && dolphAvg) || koalasAvg >= 100) {
+        console.log("The Dolphins and Koalas tied!");
+      } else {
+        console.log("No one wins the trophy :(");
+      }
+    </script>
+  </body>
+</html>
